@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figma 可编辑文字与多语言"
+  short_description: "恢复设计稿原生文字、制作独立语言版本并核对文案与导出结果"
+  default_prompt: "使用 $figwright-text-localization 将当前 Figma 画面的文字转为可编辑文字，或按文案表制作独立语言版本，保留当前排版并完成核对导出。"
