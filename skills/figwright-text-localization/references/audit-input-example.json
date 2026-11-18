@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "headline",
+      "source_cell": "Copy!G8",
+      "expected": "Moteur à entraînement direct",
+      "actual": "MOTEUR À ENTRAÎNEMENT\nDIRECT",
+      "ignore_case": true,
+      "ignore_list_markers": false
+    },
+    {
+      "id": "split_caption",
+      "source_cell": "Copy!G9",
+      "expected": "Résolution de 24 bits",
+      "actual": [
+        "Résolution de",
+        "24 bits"
+      ],
+      "ignore_case": true,
+      "ignore_list_markers": false
+    },
+    {
+      "id": "explicit_list",
+      "source_cell": "Copy!G10",
+      "expected": "Connexion USB\nAlimentation 24 V",
+      "actual": "• Connexion USB\n• Alimentation 24 V",
+      "ignore_case": true,
+      "ignore_list_markers": true
+    },
+    {
+      "id": "explicit_fragment",
+      "source_cell": "Copy!G11",
+      "expected": "24 bits",
+      "actual": "Encodeur magnétique 24 bits",
+      "mode": "contains",
+      "ignore_case": true,
+      "ignore_list_markers": false
+    }
+  ]
+}
